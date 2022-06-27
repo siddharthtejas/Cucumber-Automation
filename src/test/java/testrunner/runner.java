@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 
 @CucumberOptions(
-        features = "src/test/java/feature/verifydeletebyautomation.feature",
+        features = "src/test/java/feature",
         glue ={"stepdefinition"},
         monochrome=true,
         dryRun= false,
