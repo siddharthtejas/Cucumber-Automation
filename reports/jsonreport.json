@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10082727900,
+              "duration": 7793360400,
               "status": "passed"
             },
             "line": 4,
@@ -24,328 +24,17 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-27T05:16:52.263Z",
-        "line": 18,
+        "start_timestamp": "2022-06-27T12:07:45.639Z",
+        "line": 20,
         "name": "Login with valid credentials",
         "description": "",
-        "id": "verify-the-affiliate-filter-page;login-with-valid-credentials;;2",
+        "id": "verify-the-add-affiliate-page;login-with-valid-credentials;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 163886500,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User enetrs valid Username \"admin\" and Password \"Admin@123\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"admin\"",
-                  "offset": 27
-                },
-                {
-                  "val": "\"Admin@123\"",
-                  "offset": 48
-                }
-              ],
-              "location": "logintest.user_enetrs_valid_Username_and_Password(String,String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1942632000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "Clicks on Login",
-            "match": {
-              "location": "logintest.clicks_on_Login()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4048009500,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "Click on Menu icon",
-            "match": {
-              "location": "logintest.click_on_Menu_icon()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4035151500,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "Click on Marketing icon",
-            "match": {
-              "location": "logintest.click_on_Marketing_icon()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5030006800,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "Click on Affiliates",
-            "match": {
-              "location": "logintest.click_on_Affiliates()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2126301400,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "Enter Affiliate Name \"0 Man\" and Email \"lagcdehgh@gmail.com\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"0 Man\"",
-                  "offset": 21
-                },
-                {
-                  "val": "\"lagcdehgh@gmail.com\"",
-                  "offset": 39
-                }
-              ],
-              "location": "logintest.enter_Affiliate_Name_and_Email(String,String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 559988400,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "Click on filter",
-            "match": {
-              "location": "logintest.click_on_filter()"
-            },
-            "keyword": "And "
-          }
-        ]
-      }
-    ],
-    "name": "Verify the affiliate filter page",
-    "description": "",
-    "id": "verify-the-affiliate-filter-page",
-    "keyword": "Feature",
-    "uri": "file:src/test/java/feature/filteraffiliateautomation.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "line": 3,
-        "name": "Background Section",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 7565687700,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "User on the login page",
-            "match": {
-              "location": "logintest.user_on_the_login_page()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-06-27T05:17:20.255Z",
-        "line": 13,
-        "name": "Login with valid credentials",
-        "description": "",
-        "id": "verify-the-login-page-with-invalid-credentials;login-with-valid-credentials;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 120835600,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User enetrs valid Username \"abcd\" and Password \"xyz\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"abcd\"",
-                  "offset": 27
-                },
-                {
-                  "val": "\"xyz\"",
-                  "offset": 47
-                }
-              ],
-              "location": "logintest.user_enetrs_valid_Username_and_Password(String,String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 594245300,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "Clicks on Login",
-            "match": {
-              "location": "logintest.clicks_on_Login()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@TestTest"
-          }
-        ]
-      }
-    ],
-    "name": "Verify the login page with invalid credentials",
-    "description": "",
-    "id": "verify-the-login-page-with-invalid-credentials",
-    "keyword": "Feature",
-    "uri": "file:src/test/java/feature/invalidlogintestautomation.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "line": 3,
-        "name": "Background Section",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 5990219200,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "User on the login page",
-            "match": {
-              "location": "logintest.user_on_the_login_page()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-06-27T05:17:28.536Z",
-        "line": 17,
-        "name": "Login with valid credentials",
-        "description": "",
-        "id": "verify-the-login-page-with-valid-credentials;login-with-valid-credentials;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 122634900,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User enetrs valid Username \"admin\" and Password \"Admin@123\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"admin\"",
-                  "offset": 27
-                },
-                {
-                  "val": "\"Admin@123\"",
-                  "offset": 48
-                }
-              ],
-              "location": "logintest.user_enetrs_valid_Username_and_Password(String,String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 5183749500,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "Clicks on Login",
-            "match": {
-              "location": "logintest.clicks_on_Login()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@TestTest"
-          }
-        ]
-      }
-    ],
-    "name": "Verify the login page with valid credentials",
-    "description": "",
-    "id": "verify-the-login-page-with-valid-credentials",
-    "keyword": "Feature",
-    "uri": "file:src/test/java/feature/validlogintestautomation.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "line": 3,
-        "name": "Background Section",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 25996285800,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "User on the login page",
-            "match": {
-              "location": "logintest.user_on_the_login_page()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-06-27T05:17:39.833Z",
-        "line": 17,
-        "name": "Login with valid credentials",
-        "description": "",
-        "id": "verify-the-delete-functionality;login-with-valid-credentials;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 108600900,
+              "duration": 148909700,
               "status": "passed"
             },
             "line": 7,
@@ -367,7 +56,7 @@
           },
           {
             "result": {
-              "duration": 4178497600,
+              "duration": 2703769500,
               "status": "passed"
             },
             "line": 8,
@@ -379,7 +68,7 @@
           },
           {
             "result": {
-              "duration": 4041379600,
+              "duration": 4067095500,
               "status": "passed"
             },
             "line": 9,
@@ -391,7 +80,7 @@
           },
           {
             "result": {
-              "duration": 4033374100,
+              "duration": 4087851800,
               "status": "passed"
             },
             "line": 10,
@@ -403,7 +92,7 @@
           },
           {
             "result": {
-              "duration": 5216089900,
+              "duration": 4727782400,
               "status": "passed"
             },
             "line": 11,
@@ -415,37 +104,128 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\u0027form-affiliate\u0027]/div/table/tbody/tr[2]/td[1]/input\"}\n  (Session info: chrome\u003d102.0.5005.115)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027IBM-BH082F3\u0027, ip: \u0027192.168.65.31\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\\Users\\003P5F~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58325}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 56f09883ceebbbe384d2a36c9589f2f2\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\u0027form-affiliate\u0027]/div/table/tbody/tr[2]/td[1]/input}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepdefinition.logintest.select_the_checkbox(logintest.java:93)\r\n\tat ✽.Select the checkbox(file:src/test/java/feature/verifydeletebyautomation.feature:12)\r\n",
-              "duration": 2026961800,
-              "status": "failed"
+              "duration": 2429472700,
+              "status": "passed"
             },
             "line": 12,
-            "name": "Select the checkbox",
+            "name": "Click on Add New",
             "match": {
-              "location": "logintest.select_the_checkbox()"
+              "location": "logintest.click_on_Add_New()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 9100,
-              "status": "skipped"
+              "duration": 1844665800,
+              "status": "passed"
             },
             "line": 13,
-            "name": "Click on delete button",
+            "name": "Enter First Name \"Neeraj\", Last Name \"Chopra\", E-Mail \"rohit@gmail.com\", Telephone \"6789373\", Tracking Code \"62b9873eb00bf\", Password \"Admin@123\", Confirm \"123456\", Address 1 \"Abcd Place India\", City \"Delhi\", Country \"Inida\" and State \"Delhi\"",
             "match": {
-              "location": "logintest.click_on_delete_button()"
+              "arguments": [
+                {
+                  "val": "\"Neeraj\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Chopra\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"rohit@gmail.com\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"6789373\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"62b9873eb00bf\"",
+                  "offset": 108
+                },
+                {
+                  "val": "\"Admin@123\"",
+                  "offset": 134
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 155
+                },
+                {
+                  "val": "1",
+                  "offset": 173
+                },
+                {
+                  "val": "\"Abcd Place India\"",
+                  "offset": 175
+                },
+                {
+                  "val": "\"Delhi\"",
+                  "offset": 200
+                },
+                {
+                  "val": "\"Inida\"",
+                  "offset": 217
+                },
+                {
+                  "val": "\"Delhi\"",
+                  "offset": 235
+                }
+              ],
+              "location": "logintest.enter_First_Name_Last_Name_E_Mail_Telephone_Tracking_Code_Password_Confirm_Address_City_Country_and_State(String,String,String,String,String,String,String,Integer,String,String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1085409100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click on Payment details",
+            "match": {
+              "location": "logintest.click_on_Payment_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 84140200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Enter the Cheque Payee Name \"Mr coder\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mr coder\"",
+                  "offset": 28
+                }
+              ],
+              "location": "logintest.enter_the_Cheque_Payee_Name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1165726100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click on Save",
+            "match": {
+              "location": "logintest.click_on_Save()"
             },
             "keyword": "And "
           }
         ]
       }
     ],
-    "name": "Verify the delete functionality",
+    "name": "Verify the Add affiliate page",
     "description": "",
-    "id": "verify-the-delete-functionality",
+    "id": "verify-the-add-affiliate-page",
     "keyword": "Feature",
-    "uri": "file:src/test/java/feature/verifydeletebyautomation.feature",
+    "uri": "file:src/test/java/feature/addaffiliateautomation.feature",
     "tags": []
   }
 ]

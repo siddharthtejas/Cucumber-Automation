@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 
 @CucumberOptions(
-        features = "src/test/java/feature",
+        features = "src/test/java/feature/addaffiliateautomation.feature",
         glue ={"stepdefinition"},
         monochrome=true,
         dryRun= false,

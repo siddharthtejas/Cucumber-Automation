@@ -1,64 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="93.170949">
-<testcase classname="Verify the affiliate filter page" name="Login with valid credentials" time="27.991022">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="30.140293">
+<testcase classname="Verify the Add affiliate page" name="Login with valid credentials" time="30.140293">
 <system-out><![CDATA[Given User on the login page................................................passed
 Given User enetrs valid Username "admin" and Password "Admin@123"...........passed
 And Clicks on Login.........................................................passed
 And Click on Menu icon......................................................passed
 Then Click on Marketing icon................................................passed
 And Click on Affiliates.....................................................passed
-Then Enter Affiliate Name "0 Man" and Email "lagcdehgh@gmail.com"...........passed
-And Click on filter.........................................................passed
+Then Click on Add New.......................................................passed
+Then Enter First Name "Neeraj", Last Name "Chopra", E-Mail "rohit@gmail.com", Telephone "6789373", Tracking Code "62b9873eb00bf", Password "Admin@123", Confirm "123456", Address 1 "Abcd Place India", City "Delhi", Country "Inida" and State "Delhi".passed
+Then Click on Payment details...............................................passed
+And Enter the Cheque Payee Name "Mr coder"..................................passed
+And Click on Save...........................................................passed
 ]]></system-out>
-</testcase>
-<testcase classname="Verify the login page with invalid credentials" name="Login with valid credentials" time="8.281079">
-<system-out><![CDATA[Given User on the login page................................................passed
-Given User enetrs valid Username "abcd" and Password "xyz"..................passed
-And Clicks on Login.........................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Verify the login page with valid credentials" name="Login with valid credentials" time="11.296944">
-<system-out><![CDATA[Given User on the login page................................................passed
-Given User enetrs valid Username "admin" and Password "Admin@123"...........passed
-And Clicks on Login.........................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Verify the delete functionality" name="Login with valid credentials" time="45.601904">
-<failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id='form-affiliate']/div/table/tbody/tr[2]/td[1]/input&quot;}&#10;  (Session info: chrome=102.0.5005.115)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'IBM-BH082F3', ip: '192.168.65.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\003P5F~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58325}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 56f09883ceebbbe384d2a36c9589f2f2&#10;*** Element info: {Using=xpath, value=//*[@id='form-affiliate']/div/table/tbody/tr[2]/td[1]/input}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at stepdefinition.logintest.select_the_checkbox(logintest.java:93)&#13;&#10;&#9;at ✽.Select the checkbox(file:src/test/java/feature/verifydeletebyautomation.feature:12)&#13;&#10;"><![CDATA[Given User on the login page................................................passed
-Given User enetrs valid Username "admin" and Password "Admin@123"...........passed
-And Clicks on Login.........................................................passed
-And Click on Menu icon......................................................passed
-Then Click on Marketing icon................................................passed
-And Click on Affiliates.....................................................passed
-Then Select the checkbox....................................................failed
-And Click on delete button..................................................skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='form-affiliate']/div/table/tbody/tr[2]/td[1]/input"}
-  (Session info: chrome=102.0.5005.115)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'IBM-BH082F3', ip: '192.168.65.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\003P5F~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58325}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 56f09883ceebbbe384d2a36c9589f2f2
-*** Element info: {Using=xpath, value=//*[@id='form-affiliate']/div/table/tbody/tr[2]/td[1]/input}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at stepdefinition.logintest.select_the_checkbox(logintest.java:93)
-	at ✽.Select the checkbox(file:src/test/java/feature/verifydeletebyautomation.feature:12)
-]]></failure>
 </testcase>
 </testsuite>
