@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="30.752201">
+<testcase classname="Verify the delete functionality" name="Login with valid credentials" time="30.752201">
+<failure message="junit.framework.ComparisonFailure: expected:&lt;[Success: You have modified affiliates!]&gt; but was:&lt;[]&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#13;&#10;&#9;at stepdefinition.logintest.click_on_delete_button(logintest.java:108)&#13;&#10;&#9;at ✽.Click on delete button(file:src/test/java/feature/verifydeletebyautomation.feature:13)&#13;&#10;"><![CDATA[Given User on the login page................................................passed
+Given User enetrs valid Username "admin" and Password "Admin@123"...........passed
+And Clicks on Login.........................................................passed
+And Click on Menu icon......................................................passed
+Then Click on Marketing icon................................................passed
+And Click on Affiliates.....................................................passed
+Then Select the checkbox....................................................passed
+And Click on delete button..................................................failed
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<[Success: You have modified affiliates!]> but was:<[]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at stepdefinition.logintest.click_on_delete_button(logintest.java:108)
+	at ✽.Click on delete button(file:src/test/java/feature/verifydeletebyautomation.feature:13)
+]]></failure>
+</testcase>
+</testsuite>
